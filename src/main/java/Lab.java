@@ -14,6 +14,8 @@ public class Lab {
      * event happens, like running out of computer memory.
      */
     public void throwUncheckedException(){
+        int[] arr = {0, 1, 2, 3};
 
+        arr[5] = arr[0] + arr[1];
     }
 }
